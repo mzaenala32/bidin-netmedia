@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Instalasi WiFi & Network Professional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(13, 110, 253, 0.85), rgba(13, 110, 253, 0.85)), url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1000') center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+
+        .btn-cta {
+            background-color: #25d366;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn-cta:hover {
+            background-color: #1eb954;
+        }
+
+        /* Container & Cards */
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            color: #0d6efd;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #0d6efd;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #28a745;
+            margin: 15px 0;
+        }
+
+        /* Form Pendaftaran */
+        .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .btn-submit {
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .btn-submit:hover {
+            background-color: #4e8be8;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Bidin NETMEDIA </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Jasa Pemasangan & Setting WiFi Profesional</h1>
+        <p>Solusi jaringan cepat, stabil, dan aman untuk Rumah, Kantor, Kafe, atau Sistem Voucher Hotspot.</p>
+        <a href="#form-pendaftaran" class="btn-cta">Daftar / Pesan Sekarang</a>
+    </section>
+
+    <!-- Layanan -->
+    <div class="container">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>WiFi Rumah & Kantor</h3>
+                <p>Pemasangan router, perluasan jangkauan sinyal (Access Point), dan penataan kabel LAN rapi.</p>
+            </div>
+            <div class="card">
+                <h3>Sistem Hotspot Voucher</h3>
+                <p>Setting MikroTik + Mikhmon untuk jualan internet voucheran di kafe, kos-kosan, atau RT/RW Net.</p>
+            </div>
+            <div class="card">
+                <h3>Manajemen Jaringan</h3>
+                <p>Pembagian pembatasan kecepatan (Bandwidth Management), pisah lalu lintas game & browsing, serta keamanan jaringan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paket Harga -->
+    <div class="container">
+        <h2 class="section-title">Paket Estimasi Biaya</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Paket Basic</h3>
+                <p>Setting Router Standard / Perluasan Sinyal WiFi Rumah</p>
+                <div class="price">Mulai Rp 150.000</div>
+            </div>
+            <div class="card">
+                <h3>Paket Hotspot Voucher</h3>
+                <p>Setting MikroTik + Sistem Voucher Mikhmon Siap Pakai</p>
+                <div class="price">Mulai Rp 350.000</div>
+            </div>
+            <div class="card">
+                <h3>Paket Kantor / Cafe</h3>
+                <p>Setting Management Bandwidth + Multi Access Point + Kabel</p>
+                <div class="price">Mulai Rp 500.000</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Form Pendaftaran -->
+    <div class="container" id="form-pendaftaran">
+        <h2 class="section-title">Form Pendaftaran Jasa</h2>
+        <div class="form-container">
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" required placeholder="Masukkan nama Anda">
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">Nomor WhatsApp</label>
+                    <input type="tel" id="whatsapp" required placeholder="Contoh: 081234567890">
+                </div>
+                <div class="form-group">
+                    <label for="paket">Pilih Paket Layanan</label>
+                    <select id="paket" required>
+                        <option value="">-- Pilih Paket --</option>
+                        <option value="Paket Basic (Rp 150.000)">Paket Basic</option>
+                        <option value="Paket Hotspot Voucher (Rp 350.000)">Paket Hotspot Voucher</option>
+                        <option value="Paket Kantor / Cafe (Rp 500.000)">Paket Kantor / Cafe</option>
+                        <option value="Custom / Konsultasi Dulu">Custom / Konsultasi Dulu</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat / Lokasi Pemasangan</label>
+                    <textarea id="alamat" rows="3" required placeholder="Masukkan alamat lengkap lokasi pemasangan"></textarea>
+                </div>
+                <button type="button" class="btn-submit" onclick="kirimKeWA()">Kirim Pendaftaran via WA</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BIDIN NETMEDIA - Jasa Instalasi Jaringan & WiFi</p>
+    </footer>
+
+    <!-- Script Pengirim WhatsApp -->
+    <script>
+        function kirimKeWA() {
+            // Ubah nomor di bawah ini dengan nomor WhatsApp kamu (awali dengan 62)
+            const nomorWA = "6281215722008";
+
+            const nama = document.getElementById('nama').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const paket = document.getElementById('paket').value;
+            const alamat = document.getElementById('alamat').value;
+
+            if (!nama || !whatsapp || !paket || !alamat) {
+                alert("Harap isi semua kolom pendaftaran terlebih dahulu!");
+                return;
+            }
+
+            const pesan = `Halo, saya ingin mendaftar/memesan jasa instalasi WiFi:%0A%0A` +
+                          `*Nama:* ${nama}%0A` +
+                          `*No. WA:* ${whatsapp}%0A` +
+                          `*Paket Layanan:* ${paket}%0A` +
+                          `*Alamat:* ${alamat}`;
+
+            window.open(`https://wa.me/${nomorWA}?text=${pesan}`, '_blank');
+        }
+    </script>
+
+</body>
+</html>
